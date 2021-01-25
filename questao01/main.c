@@ -6,8 +6,8 @@ int main()
     //&: retorna o ENDEREÇO da variável
     //*: recupera o CONTEÚDO DO ENDEREÇO
 
-    float i=3,j=5;
-    float *p, *q;
+    int i=3,j=5;
+    int *p, *q;
     p = &i; //guardando o endereço de i em p
     q = &j; //guardando o endereço de j em q
 
