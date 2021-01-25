@@ -15,11 +15,12 @@ int main()
     *p - *q; // conteúdo de p - conteúdo de q = 3 - 5 = -2
     **&p; // 3
 
-    printf("%i",**&p);
+    printf("%d",**&p);
     printf ("\n");
 
-    3 - *p/(*q) + 7; // 3 - 3/5 + 7
-    printf("%f ", 3 - *p/(*q) + 7);
+    3 - *p/(*q) + 7; // 3 - 3/5 + 7 = 3 - 0 + 7 = 10
+
+    printf("%d ", 3 - *p/(*q) + 7);
     return 0;
 
 }
