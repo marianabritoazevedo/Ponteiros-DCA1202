@@ -13,3 +13,5 @@ int main()
 
     return 0;
 }
+
+//As expressões são inválidas, pois não é possível incrementar endereço
